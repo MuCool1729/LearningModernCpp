@@ -5,6 +5,9 @@ int main(){
     vec.push_back(45);
     vec.push_back(5);
     vec.push_back(475);
+
+    // worth noting that iterator is a class but acts like a pointer.
+
     vector<int>::iterator itr1 = vec.begin(); //half open: [begin,end) 
     vector<int>::iterator itr2 = vec.end();
     for(auto itr = itr1;itr!=itr2;itr++){
