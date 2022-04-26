@@ -52,8 +52,8 @@ int main(){
    // one can ignore writing typenames via calling template based functions but the same
    // is not true in case of a class.
    
-   // Vec vec; will give an error
-   //Vec<int> vec; will work
+   // Vec vec; will give an error.
+   //Vec<int> vec; will work.
     Vec<long long> vec;
     vec.push(154);
     vec.push(152);
