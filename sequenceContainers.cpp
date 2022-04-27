@@ -13,6 +13,8 @@
 
 using namespace std;
 
+ // lesson about sequence containers
+
 int main(){
     vector<int> vec;
     vec.push_back(4);
